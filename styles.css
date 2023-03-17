@@ -25,6 +25,7 @@ h1 {
   font-size: 2.5rem;
   line-height: 3.5rem;
   font-family: "Poppins", sans-serif;
+  margin-right: 0.5rem;
 }
 
 p {
@@ -59,7 +60,7 @@ button:hover {
 
 .wrapper {
   height: 100vh;
-  padding: 4rem 4.7rem 2.2rem;
+  padding: 3.2rem 4.7rem 2.2rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -95,7 +96,7 @@ button:hover {
   height: 2.5rem;
   width: 2.5rem;
   text-decoration: none;
-  margin-left: 1.2rem;
+  margin-left: 1.3rem;
 }
 
 .social-links a:hover {
