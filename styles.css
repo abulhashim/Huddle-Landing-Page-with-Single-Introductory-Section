@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+
+:root {
+  --Violet: hsl(257, 40%, 49%);
+  --SoftMagenta: hsl(300, 69%, 71%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--Violet);
+  background-image: url(images/bg-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  line-height: 1.5rem;
+  font-size: 1rem;
+  margin: 1.5rem 0;
+  opacity: 0.8;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  border: none;
+  border-radius: 2rem;
+  background-color: #fff;
+  font-size: 1.15rem;
+  font-family: "Poppins", sans-serif;
+  color: var(--Violet);
+  min-width: 12.5rem;
+  min-height: 3.7rem;
+  box-shadow: 3px 5px 10px 1px #00000034;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: var(--SoftMagenta);
+}
+
+.wrapper {
+  height: 100vh;
+  padding: 3rem 4.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.center {
+  display: flex;
+  gap: 3rem;
+  margin: auto 0;
+}
+
+.logo {
+  max-width: 13rem;
+  margin-bottom: 2rem;
+}
+
+.rightSide {
+  margin: auto 0;
+  width: 45%;
+}
+
+.social-links {
+  margin: auto 0 0 auto;
+}
+
+.social-links a {
+  border-radius: 50%;
+  border: 1px solid #fff;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  text-decoration: none;
+  margin-left: 1.2rem;
+}
+
+.social-links a:hover {
+  cursor: pointer;
+  color: var(--SoftMagenta);
+  border-color: var(--SoftMagenta);
+}
+
+@media screen and (max-width: 440px) {
+  body {
+    background-image: url(images/bg-mobile.svg);
+    background-size: contain;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+    line-height: 2.7rem;
+  }
+
+  .wrapper {
+    padding: 2rem;
+  }
+
+  .center {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+
+  .logo {
+    max-width: 8.8rem;
+  }
+
+  .rightSide {
+    text-align: center;
+    width: 100%;
+  }
+
+  .social-links {
+    margin: auto;
+  }
+}
