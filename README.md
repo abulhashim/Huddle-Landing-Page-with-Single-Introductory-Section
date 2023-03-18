@@ -16,7 +16,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [frontendmentor.io/solutions/Huddle-landing-page-with-single-introductory-section](https://www.frontendmentor.io/solutions/huddle-landing-page-with-single-introductory-section)
+- Solution URL: [frontendmentor.io/solutions/Huddle-landing-page-with-single-introductory-section](https://www.frontendmentor.io/solutions/huddle-landing-page-with-single-introductory-section--qLQ032Wkp)
 - Live Site URL: [abulhashim.github.io/](https://abulhashim.github.io/Huddle-Landing-Page-with-Single-Introductory-Section/)
 
 ## My process
